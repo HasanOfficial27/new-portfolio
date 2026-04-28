@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Custom slow rotation animation */
+@layer utilities {
+  .animate-rotate-slow {
+    animation: rotateSlow 20s linear infinite;
+  }
+}
+
+@keyframes rotateSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
