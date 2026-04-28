@@ -2,6 +2,8 @@ import Home2 from "./components/Extra";
 import Home from "./pages/Home";
 import Extra2 from "./pages/Extra2";
 
+// f;ldj
+
 export default function App() {
   return (
     <div className="bg-slate-900 text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white overflow-x-hidden">
